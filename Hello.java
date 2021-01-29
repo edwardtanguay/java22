@@ -1,13 +1,8 @@
+import tools.outputManager;
 public class Hello {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		System.out.println("Hello World");
-		OutputManager om = new OutputManager();
+		outputManager om = new outputManager();
 		om.displayTest();
 	}	
-}
-
-class OutputManager {
-	public void displayTest() {
-		System.out.println("The test.");
-	}
 }
